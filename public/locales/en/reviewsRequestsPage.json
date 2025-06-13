@@ -1,1 +1,47 @@
-{}
+{
+  "header": {
+    "title": "Review Requests",
+    "subtitle": "Manage and track review invitations sent to customers."
+  },
+  "stats": {
+    "sentToday": {
+      "title": "Requests Sent Today"
+    },
+    "openRate": {
+      "title": "Est. Open Rate"
+    },
+    "reviewsFromRequests": {
+      "title": "Reviews from Requests"
+    }
+  },
+  "buttons": {
+    "filterRequests": "Filter Requests",
+    "sendNewRequest": "Send New Request"
+  },
+  "table": {
+    "headers": {
+      "dateSent": "Date Sent",
+      "recipient": "Recipient",
+      "platform": "Platform",
+      "campaign": "Campaign",
+      "status": "Status",
+      "actions": "Actions"
+    },
+    "body": {
+      "noCampaign": "-",
+      "buttons": {
+        "resendRequestTooltip": "Resend Request",
+        "viewDetailsTooltip": "View Details"
+      }
+    },
+    "emptyMessage": "No review requests found."
+  },
+  "status": {
+    "sent": "Sent",
+    "opened": "Opened",
+    "clicked": "Clicked",
+    "reviewed": "Reviewed",
+    "failed": "Failed",
+    "bounced": "Bounced"
+  }
+}
