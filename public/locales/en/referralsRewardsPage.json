@@ -1,0 +1,52 @@
+{
+  "header": {
+    "defaultProgramName": "Our Awesome Referral Program",
+    "subtitle": "Learn about the rewards you can earn by referring friends."
+  },
+  "metrics": {
+    "referrerRewardStandard": {
+      "title": "Referrer Reward (Standard)"
+    },
+    "refereeRewardStandard": {
+      "title": "Referee Reward (Standard)"
+    },
+    "friendsToInvite": {
+      "title": "Friends To Invite",
+      "value": "Unlimited"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "defaultSummary": "Invite your friends to join us! When they sign up and make their first qualifying action (like a purchase or subscription), you both get rewarded. It's a win-win!"
+  },
+  "rewardDetails": {
+    "title": "Reward Details",
+    "tier": {
+      "referrerLabel": "You Get:",
+      "refereeLabel": "Your Friend Gets:",
+      "conditionsLabel": "Conditions:"
+    },
+    "exampleTier": {
+      "name": "Example Reward Tier",
+      "description": "Description of what this tier offers.",
+      "rewardForReferrer": "Referrer's Example Reward",
+      "rewardForReferee": "Referee's Example Reward",
+      "conditionExample": "Example condition for this tier."
+    }
+  },
+  "eligibility": {
+    "title": "Eligibility Criteria",
+    "defaultNote": "General eligibility note."
+  },
+  "claiming": {
+    "title": "Claiming Your Rewards",
+    "defaultInfo": "Information about how rewards are claimed."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "example": {
+      "question": "Example Question?",
+      "answer": "Example Answer."
+    }
+  }
+}
