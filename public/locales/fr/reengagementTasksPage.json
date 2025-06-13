@@ -1,1 +1,53 @@
-{}
+{
+  "header": {
+    "title": "Tâches de réengagement",
+    "subtitle": "Gérez et suivez vos activités de réengagement."
+  },
+  "metrics": {
+    "openTasks": {
+      "title": "Tâches ouvertes",
+      "change": "+3 aujourd'hui"
+    },
+    "completedToday": {
+      "title": "Terminées aujourd'hui"
+    },
+    "overdueTasks": {
+      "title": "Tâches en retard",
+      "change": "{{count}} urgentes"
+    }
+  },
+  "taskList": {
+    "title": "Liste des tâches",
+    "buttons": {
+      "filter": "Filtrer",
+      "createNew": "Créer une nouvelle tâche"
+    },
+    "table": {
+      "headers": {
+        "description": "Description",
+        "leadSegment": "Prospect/Segment",
+        "assignedTo": "Assigné à",
+        "dueDate": "Date d'échéance",
+        "priority": "Priorité",
+        "status": "Statut",
+        "actions": "Actions"
+      },
+      "body": {
+        "notApplicable": "N/A",
+        "unassigned": "Non assigné"
+      },
+      "emptyMessage": "Aucune tâche trouvée."
+    },
+    "status": {
+      "open": "Ouverte",
+      "inProgress": "En cours",
+      "completed": "Terminée",
+      "overdue": "En retard"
+    },
+    "priority": {
+      "high": "Haute",
+      "medium": "Moyenne",
+      "low": "Basse"
+    }
+  }
+}

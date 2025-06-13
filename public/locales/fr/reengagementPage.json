@@ -1,1 +1,48 @@
-{}
+{
+  "header": {
+    "title": "Réengagement des prospects",
+    "subtitle": "Revitalisez les prospects dormants et augmentez les conversions."
+  },
+  "overviewStats": {
+    "coldLeads": {
+      "title": "Prospects froids identifiés",
+      "change": "+50 cette semaine"
+    },
+    "activeCampaigns": {
+      "title": "Campagnes actives",
+      "change": "+2 nouvelles"
+    },
+    "successfulReEngagements": {
+      "title": "Réengagements réussis",
+      "change": "+25 ces 7 derniers jours"
+    },
+    "engagementRateLift": {
+      "title": "Hausse du taux d'engagement",
+      "change": "vs. période précédente"
+    }
+  },
+  "navLinks": {
+    "classification": {
+      "title": "Classification des prospects",
+      "description": "Définissez et gérez les critères de classification des prospects (chauds, tièdes, froids) pour cibler efficacement les efforts de réengagement."
+    },
+    "tasks": {
+      "title": "Tâches de réengagement",
+      "description": "Visualisez, attribuez et suivez les tâches manuelles ou automatisées liées à vos campagnes de réengagement et au suivi des prospects."
+    },
+    "automation": {
+      "title": "Règles d'automatisation",
+      "description": "Configurez des flux de travail et des déclencheurs automatisés pour réengager les prospects en fonction de leur classification et de leur comportement."
+    }
+  },
+  "funnel": {
+    "title": "Entonnoir de réengagement",
+    "stages": {
+      "identified": "Identifiés",
+      "contacted": "Contactés",
+      "responded": "Ont répondu",
+      "reEngaged": "Réengagés"
+    },
+    "tooltip": "{{stageName}} : {{count}}"
+  }
+}

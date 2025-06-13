@@ -1,1 +1,54 @@
-{}
+{
+  "header": {
+    "title": "Automatisation du réengagement",
+    "subtitle": "Configurez et gérez des flux de travail automatisés pour réengager les prospects."
+  },
+  "metrics": {
+    "activeRules": {
+      "title": "Règles d'automatisation actives",
+      "change": "Total {{count}} règles"
+    },
+    "leadsProcessed": {
+      "title": "Prospects traités aujourd'hui (Auto)"
+    },
+    "automatedConversions": {
+      "title": "Réengagements automatisés",
+      "change": "+3 cette semaine"
+    }
+  },
+  "list": {
+    "title": "Liste des règles d'automatisation",
+    "buttons": {
+      "createNew": "Créer une nouvelle règle"
+    },
+    "emptyMessage": "Aucune règle d'automatisation configurée."
+  },
+  "ruleCard": {
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "buttons": {
+      "deactivate": {
+        "tooltip": "Désactiver"
+      },
+      "activate": {
+        "tooltip": "Activer"
+      },
+      "edit": {
+        "tooltip": "Modifier la règle"
+      },
+      "delete": {
+        "tooltip": "Supprimer la règle"
+      }
+    },
+    "triggerLabel": "Déclencheur :",
+    "actionsLabel": "Actions :",
+    "performance": {
+      "label": "Performance :",
+      "emailsSent": "E-mails envoyés : {{count}}",
+      "openRate": "Taux d'ouverture : {{rate}}%",
+      "clickRate": "Taux de clics : {{rate}}%"
+    }
+  }
+}
