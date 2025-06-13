@@ -1,1 +1,52 @@
-{}
+{
+  "header": {
+    "defaultProgramName": "Notre Super Programme de Parrainage",
+    "subtitle": "Découvrez les récompenses que vous pouvez gagner en parrainant des amis."
+  },
+  "metrics": {
+    "referrerRewardStandard": {
+      "title": "Récompense Parrain (Standard)"
+    },
+    "refereeRewardStandard": {
+      "title": "Récompense Filleul (Standard)"
+    },
+    "friendsToInvite": {
+      "title": "Amis à inviter",
+      "value": "Illimité"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "defaultSummary": "Invitez vos amis à nous rejoindre ! Lorsqu'ils s'inscrivent et effectuent leur première action qualifiante (comme un achat ou un abonnement), vous êtes tous les deux récompensés. C'est gagnant-gagnant !"
+  },
+  "rewardDetails": {
+    "title": "Détails des récompenses",
+    "tier": {
+      "referrerLabel": "Vous obtenez :",
+      "refereeLabel": "Votre ami obtient :",
+      "conditionsLabel": "Conditions :"
+    },
+    "exampleTier": {
+      "name": "Niveau de récompense exemple",
+      "description": "Description de ce que ce niveau offre.",
+      "rewardForReferrer": "Récompense exemple du parrain",
+      "rewardForReferee": "Récompense exemple du filleul",
+      "conditionExample": "Condition exemple pour ce niveau."
+    }
+  },
+  "eligibility": {
+    "title": "Critères d'éligibilité",
+    "defaultNote": "Note générale sur l'éligibilité."
+  },
+  "claiming": {
+    "title": "Réclamer vos récompenses",
+    "defaultInfo": "Informations sur la manière de réclamer les récompenses."
+  },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "example": {
+      "question": "Question exemple ?",
+      "answer": "Réponse exemple."
+    }
+  }
+}

@@ -1,1 +1,66 @@
-{}
+{
+  "header": {
+    "title": "Booster d'avis",
+    "subtitle": "Mettez en œuvre des stratégies et des campagnes pour augmenter proactivement les avis positifs."
+  },
+  "stats": {
+    "activeCampaigns": {
+      "title": "Campagnes Booster actives"
+    },
+    "reviewsFromBooster": {
+      "title": "Avis via Booster"
+    },
+    "avgRatingFromBooster": {
+      "title": "Note moy. (Booster)",
+      "unit": "/ 5"
+    }
+  },
+  "strategies": {
+    "title": "Stratégies Booster",
+    "emailSequence": {
+      "name": "Séquence d'e-mails post-achat",
+      "description": "Envoyez automatiquement des demandes d'avis par e-mail quelques jours après l'achat d'un client.",
+      "actionText": "Configurer la séquence"
+    },
+    "smsCampaign": {
+      "name": "Campagnes SMS ciblées",
+      "description": "Envoyez des liens d'avis par SMS à des segments de clients spécifiques ayant eu récemment des interactions positives.",
+      "actionText": "Lancer la campagne SMS"
+    },
+    "qrGenerator": {
+      "name": "Code QR en magasin",
+      "description": "Générez des codes QR uniques pour les supports imprimés en magasin afin d'encourager les avis sur place.",
+      "actionText": "Générer le code QR"
+    },
+    "socialContest": {
+      "name": "Concours d'avis sur les réseaux sociaux",
+      "description": "Organisez un concours sur les réseaux sociaux pour inciter les clients à laisser des avis.",
+      "actionText": "Mettre en place le concours"
+    }
+  },
+  "campaignsTable": {
+    "title": "Campagnes actives et récentes",
+    "headers": {
+      "campaignName": "Nom de la campagne",
+      "strategy": "Stratégie",
+      "startDate": "Date de début",
+      "status": "Statut",
+      "reviewsGenerated": "Avis générés",
+      "avgRating": "Note moy.",
+      "actions": "Actions"
+    },
+    "body": {
+      "noAvgRating": "-",
+      "buttons": {
+        "manageCampaignTooltip": "Gérer la campagne"
+      }
+    },
+    "status": {
+      "active": "Active",
+      "paused": "En pause",
+      "completed": "Terminée",
+      "draft": "Brouillon"
+    },
+    "emptyMessage": "Aucune campagne booster d'avis active."
+  }
+}

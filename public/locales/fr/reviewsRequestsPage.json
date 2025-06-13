@@ -1,1 +1,47 @@
-{}
+{
+  "header": {
+    "title": "Demandes d'avis",
+    "subtitle": "Gérez et suivez les invitations à laisser un avis envoyées aux clients."
+  },
+  "stats": {
+    "sentToday": {
+      "title": "Demandes envoyées aujourd'hui"
+    },
+    "openRate": {
+      "title": "Taux d'ouverture estimé"
+    },
+    "reviewsFromRequests": {
+      "title": "Avis suite aux demandes"
+    }
+  },
+  "buttons": {
+    "filterRequests": "Filtrer les demandes",
+    "sendNewRequest": "Envoyer une nouvelle demande"
+  },
+  "table": {
+    "headers": {
+      "dateSent": "Date d'envoi",
+      "recipient": "Destinataire",
+      "platform": "Plateforme",
+      "campaign": "Campagne",
+      "status": "Statut",
+      "actions": "Actions"
+    },
+    "body": {
+      "noCampaign": "-",
+      "buttons": {
+        "resendRequestTooltip": "Renvoyer la demande",
+        "viewDetailsTooltip": "Voir les détails"
+      }
+    },
+    "emptyMessage": "Aucune demande d'avis trouvée."
+  },
+  "status": {
+    "sent": "Envoyé",
+    "opened": "Ouvert",
+    "clicked": "Cliqué",
+    "reviewed": "Avis laissé",
+    "failed": "Échoué",
+    "bounced": "Rebondi"
+  }
+}
