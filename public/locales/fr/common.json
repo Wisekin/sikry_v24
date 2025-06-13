@@ -1,0 +1,183 @@
+{
+  "search": {
+    "mainTitle": "Recherche d'entreprises",
+    "filters": {
+      "title": "Filtres avancés",
+      "locationPlaceholder": "par ex., Genève, Suisse",
+      "clear": "Effacer tous les filtres"
+    },
+    "views": {
+      "grid": "Vue grille",
+      "list": "Vue liste",
+      "map": "Vue carte"
+    },
+    "sort": {
+      "relevance": "Trier par pertinence",
+      "nameAsc": "Nom (A-Z)",
+      "nameDesc": "Nom (Z-A)",
+      "dateAsc": "Date (plus ancien)",
+      "dateDesc": "Date (plus récent)"
+    },
+    "noResults": {
+      "title": "Aucun résultat trouvé",
+      "description": "Essayez de modifier vos critères de recherche"
+    }
+  },
+  "nav": {
+    "dashboard": "Tableau de bord",
+    "search": "Recherche",
+    "companies": "Entreprises",
+    "marketIntel": "Intelligence de marché",
+    "scrapers": "Scrapers",
+    "statistics": {
+      "title": "Statistiques",
+      "overview": "Aperçu",
+      "collectionTrends": "Tendances de collecte",
+      "geographicDistribution": "Distribution géographique",
+      "sectorDistribution": "Distribution par secteur",
+      "sourceComparison": "Comparaison des sources"
+    },
+    "communications": {
+      "title": "Communications",
+      "overview": "Aperçu",
+      "campaigns": "Campagnes",
+      "templates": "Modèles",
+      "bulkSender": "Envoyeur en masse"
+    },
+    "financial": {
+      "title": "Financier",
+      "records": "Registres",
+      "summary": "Résumé",
+      "campaignRoi": "ROI des campagnes"
+    },
+    "reengagement": {
+      "title": "Ré-engagement",
+      "tasks": "Tâches",
+      "classification": "Classification",
+      "automation": "Automatisation"
+    },
+    "referrals": {
+      "title": "Références",
+      "dashboard": "Tableau de bord",
+      "tracking": "Suivi",
+      "rewards": "Récompenses"
+    },
+    "reviews": {
+      "title": "Avis",
+      "requests": "Demandes",
+      "booster": "Booster",
+      "monitoring": "Surveillance"
+    },
+    "funnels": {
+      "title": "Entonnoirs",
+      "builder": "Constructeur",
+      "progress": "Progrès",
+      "automation": "Automatisation"
+    },
+    "gapAnalysis": {
+      "title": "Analyse des écarts",
+      "form": "Formulaire",
+      "letters": "Lettres",
+      "results": "Résultats"
+    },
+    "vsl": {
+      "title": "VSL",
+      "templates": "Modèles",
+      "pages": "Pages",
+      "tracking": "Suivi"
+    },
+    "leadResponse": {
+      "title": "Réponse aux leads",
+      "rules": "Règles",
+      "queue": "File d'attente",
+      "analytics": "Analytique"
+    },
+    "analytics": {
+      "title": "Analytique",
+      "performance": "Performance",
+      "conversion": "Conversion",
+      "revenue": "Revenu"
+    },
+    "admin": {
+      "title": "Admin",
+      "teamManagement": "Gestion d'équipe",
+      "billing": "Facturation",
+      "antiSpam": "Anti-Spam",
+      "compliance": "Conformité",
+      "security": "Sécurité",
+      "monitoring": "Surveillance"
+    },
+    "settings": "Paramètres"
+  },
+  "pagination": {
+    "showingResults_one": "Affiche 1 résultat",
+    "showingResults_other": "Affiche {{count}} résultats",
+    "showingCount": "Affiche {{count}} sur {{total}}"
+  },
+  "nav.admin.users": "nav.admin.users",
+  "search.refine": "search.refine",
+  "search.filters.marketing": "search.filters.marketing",
+  "search.filters.label": "search.filters.label",
+  "loading": "Chargement...",
+  "nav.secondary.addCompany": "nav.secondary.addCompany",
+  "nav.secondary.importCompanies": "nav.secondary.importCompanies",
+  "dashboard.overview": "dashboard.overview",
+  "search.filters.allIndustries": "search.filters.allIndustries",
+  "nav.secondary.exportData": "nav.secondary.exportData",
+  "nav.secondary.newScraper": "nav.secondary.newScraper",
+  "nav.secondary.runScraper": "nav.secondary.runScraper",
+  "nav.secondary.scheduleJob": "nav.secondary.scheduleJob",
+  "ai.welcome": "ai.welcome",
+  "ai.suggestions.createScraper": "ai.suggestions.createScraper",
+  "ai.suggestions.analyzeMarket": "ai.suggestions.analyzeMarket",
+  "ai.openAssistant": "ai.openAssistant",
+  "scrapers.title": "scrapers.title",
+  "scrapers.activeScrapers": "scrapers.activeScrapers",
+  "scrapers.successRate": "scrapers.successRate",
+  "scrapers.totalJobs": "scrapers.totalJobs",
+  "scrapers.v2Scrapers": "scrapers.v2Scrapers",
+  "scrapers.searchPlaceholder": "scrapers.searchPlaceholder",
+  "scrapers.filterByStatus": "scrapers.filterByStatus",
+  "scrapers.allStatuses": "scrapers.allStatuses",
+  "scrapers.active": "scrapers.active",
+  "scrapers.inactive": "scrapers.inactive",
+  "scrapers.running": "scrapers.running",
+  "scrapers.error": "scrapers.error",
+  "scrapers.filterByType": "scrapers.filterByType",
+  "scrapers.allTypes": "scrapers.allTypes",
+  "scrapers.v1": "scrapers.v1",
+  "scrapers.v2": "scrapers.v2",
+  "scrapers.api": "scrapers.api",
+  "scrapers.noScrapers": "scrapers.noScrapers",
+  "scrapers.createFirstScraper": "scrapers.createFirstScraper",
+  "search.filters.softwareDev": "search.filters.softwareDev",
+  "search.filters.fintech": "search.filters.fintech",
+  "ai.suggestions.leadStrategy": "ai.suggestions.leadStrategy",
+  "actions": "Actions",
+  "viewDetails": "Voir les détails",
+  "notAvailable": "N/A",
+  "status": {
+    "pending": "En attente",
+    "verified": "Vérifié",
+    "enabled": "Activé",
+    "disabled": "Désactivé",
+    "connected": "Connecté",
+    "notConnected": "Non connecté"
+  },
+  "percentageFormat": "{{value}} %",
+  "copy": "Copier",
+  "export": "Exporter",
+  "filters": "Filtres",
+  "all": "Tous",
+  "date": "Date",
+  "description": "Description",
+  "type": "Type",
+  "edit": "Modifier",
+  "delete": "Supprimer",
+  "ai.suggestions.findCompanies": "ai.suggestions.findCompanies",
+  "nav.secondary.newCampaign": "nav.secondary.newCampaign",
+  "nav.secondary.templates": "nav.secondary.templates",
+  "nav.secondary.newMessage": "nav.secondary.newMessage",
+  "financial.noData": "financial.noData"
+}
+}

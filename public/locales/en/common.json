@@ -1,0 +1,132 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "search": "Search",
+    "companies": "Companies",
+    "marketIntel": "Market Intel",
+    "scrapers": "Scrapers",
+    "statistics": {
+      "title": "Statistics",
+      "overview": "Overview",
+      "collectionTrends": "Collection Trends",
+      "geographicDistribution": "Geographic Distribution",
+      "sectorDistribution": "Sector Distribution",
+      "sourceComparison": "Source Comparison"
+    },
+    "communications": {
+      "title": "Communications",
+      "overview": "Overview",
+      "campaigns": "Campaigns",
+      "templates": "Templates",
+      "bulkSender": "Bulk Sender"
+    },
+    "financial": {
+      "title": "Financial",
+      "records": "Records",
+      "summary": "Summary",
+      "campaignRoi": "Campaign ROI"
+    },
+    "reengagement": {
+      "title": "Re-engagement",
+      "tasks": "Tasks",
+      "classification": "Classification",
+      "automation": "Automation"
+    },
+    "referrals": {
+      "title": "Referrals",
+      "dashboard": "Dashboard",
+      "tracking": "Tracking",
+      "rewards": "Rewards"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "requests": "Requests",
+      "booster": "Booster",
+      "monitoring": "Monitoring"
+    },
+    "funnels": {
+      "title": "Funnels",
+      "builder": "Builder",
+      "progress": "Progress",
+      "automation": "Automation"
+    },
+    "gapAnalysis": {
+      "title": "Gap Analysis",
+      "form": "Form",
+      "letters": "Letters",
+      "results": "Results"
+    },
+    "vsl": {
+      "title": "VSL",
+      "templates": "Templates",
+      "pages": "Pages",
+      "tracking": "Tracking"
+    },
+    "leadResponse": {
+      "title": "Lead Response",
+      "rules": "Rules",
+      "queue": "Queue",
+      "analytics": "Analytics"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "performance": "Performance",
+      "conversion": "Conversion",
+      "revenue": "Revenue"
+    },
+    "admin": {
+      "title": "Admin",
+      "teamManagement": "Team Management",
+      "billing": "Billing",
+      "antiSpam": "Anti-Spam"
+    }
+  },
+  "pagination": {
+    "showingResults_one": "Showing 1 result",
+    "showingResults_other": "Showing {{count}} results",
+    "showingCount": "Showing {{count}} of {{total}}"
+  },
+  "nav.admin.security": "nav.admin.security",
+  "nav.admin.compliance": "nav.admin.compliance",
+  "nav.admin.monitoring": "nav.admin.monitoring",
+  "search.filters.allIndustries": "search.filters.allIndustries",
+  "search.filters.softwareDev": "search.filters.softwareDev",
+  "search.filters.fintech": "search.filters.fintech",
+  "search.filters.marketing": "search.filters.marketing",
+  "search.filters.label": "search.filters.label",
+  "nav.admin.users": "nav.admin.users",
+  "loading": "Loading...",
+  "nav.secondary.addCompany": "nav.secondary.addCompany",
+  "actions": "Actions",
+  "viewDetails": "View Details",
+  "notAvailable": "N/A",
+  "status": {
+    "pending": "Pending",
+    "verified": "Verified",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "connected": "Connected",
+    "notConnected": "Not connected"
+  },
+  "percentageFormat": "{{value}}%",
+  "copy": "Copy",
+  "export": "Export",
+  "filters": "Filters",
+  "all": "All",
+  "date": "Date",
+  "description": "Description",
+  "type": "Type",
+  "edit": "Edit",
+  "delete": "Delete",
+  "ai.suggestions.findCompanies": "ai.suggestions.findCompanies",
+  "nav.secondary.newCampaign": "nav.secondary.newCampaign",
+  "nav.secondary.templates": "nav.secondary.templates",
+  "nav.secondary.newMessage": "nav.secondary.newMessage",
+  "financial.summary": "financial.summary",
+  "financial.noData": "financial.noData",
+  "nav.settings": "nav.settings",
+  "search": "search",
+  "dashboard.overview": "dashboard.overview",
+  "gapAnalysis.letters": "gapAnalysis.letters"
+}is.lettersPage.subtitle"
+}

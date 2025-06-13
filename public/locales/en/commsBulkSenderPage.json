@@ -1,0 +1,255 @@
+{
+  "mainHeader": {
+    "title": "Message Center",
+    "subtitle": "Design, analyze, and send your campaigns from one place.",
+    "newCampaignButton": "New Campaign"
+  },
+  "channelTabs": {
+    "email": "Email",
+    "linkedin": "LinkedIn",
+    "sms": "SMS"
+  },
+  "emailTab": {
+    "composerTitle": "Email Composer",
+    "chooseTemplateButton": "Choose from Template",
+    "templateModal": {
+      "title": "Smart Template Library",
+      "description": "Select a high-performing template to start your campaign.",
+      "searchPlaceholder": "Search templates...",
+      "filterCategoryButton": "Category",
+      "avgOpenRateLabel": "Avg. Open",
+      "avgClickRateLabel": "Avg. Click"
+    },
+    "subjectLabel": "Subject Line",
+    "abTestButton": "A/B Test Subject",
+    "subjectVariationBPlaceholder": "Variation B: e.g., A new whitepaper for {company}",
+    "bodyLabel": "Message Body",
+    "toolbar": {
+      "bold": "Bold",
+      "italic": "Italic",
+      "tags": "Insert Personalization Tag"
+    },
+    "bodyPlaceholder": "Compose your message here...",
+    "deliveryStrategy": {
+      "title": "Delivery Strategy",
+      "description": "Optimize your sending for maximum deliverability.",
+      "timingLabel": "Delivery Timing",
+      "options": {
+        "sendImmediately": "Send Immediately",
+        "scheduleLater": "Schedule for Later",
+        "optimalTime": "Optimal Time per Recipient"
+      },
+      "scheduleDateTimeLabel": "Select Date & Time",
+      "trackOpensLabel": "Track message opens",
+      "trackClicksLabel": "Track link clicks",
+      "includeUnsubscribeLabel": "Include unsubscribe link"
+    },
+    "preview": {
+      "title": "Live Preview",
+      "toLabel": "To:",
+      "fromLabel": "From:",
+      "defaultSubject": "[Your Subject Here]",
+      "defaultBody": "..."
+    }
+  },
+  "linkedinTab": {
+    "composerTitle": "LinkedIn Message",
+    "templateModal": {
+      "title": "LinkedIn Template Library",
+      "description": "Select a high-performing template for LinkedIn outreach."
+    },
+    "composerDescription": "Craft your outreach for LinkedIn. Connection request messages are not supported by LinkedIn's API for automation, focus on a great first message post-connection.",
+    "messageLabel": "Message",
+    "messagePlaceholder": "e.g., Thanks for connecting, {firstName}! I'd love to discuss...",
+    "characterCount": "{{length}} / 2000 characters",
+    "availableTagsLabel": "Available tags:",
+    "preview": {
+      "title": "Live Preview",
+      "yourNamePlaceholder": "Your Name",
+      "yourTitlePlaceholder": "Your Title at SIKRY Intelligence"
+    }
+  },
+  "smsTab": {
+    "composerTitle": "SMS Message",
+    "templateModal": {
+      "title": "SMS Template Library",
+      "description": "Select a high-performing template for SMS campaigns."
+    },
+    "composerDescription": "Keep it concise. Standard SMS rates and regulations apply.",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Hi {firstName}, quick update from SIKRY...",
+    "smsInfo": {
+      "charactersLabel": "Characters:",
+      "segments_one": "{{count}} segment",
+      "segments_other": "{{count}} segments"
+    },
+    "tip": "Tip: Include opt-out info like 'Reply STOP to end'. Use a URL shortener for links to save characters.",
+    "preview": {
+      "title": "SMS Preview",
+      "chatHeader": {
+        "title": "SIKSO Messages",
+        "replyTime": "Typically replies in minutes"
+      },
+      "systemMessageToday": "Today",
+      "incomingMessagePlaceholder": "👋 Hey there! Need a quick update?",
+      "outgoingMessagePlaceholder": "Hi {firstName}, just checking in about your SIKRY updates...",
+      "optOutInstruction": "Reply STOP to unsubscribe",
+      "disabledInputPlaceholder": "Type a message..."
+    }
+  },
+  "colorPicker": {
+    "themeLabel": "Theme:",
+    "themeOptions": {
+      "light": "Light",
+      "blue": "Blue",
+      "dark": "Dark",
+      "purple": "Purple",
+      "green": "Green",
+      "warm": "Warm",
+      "brand": "Brand"
+    }
+  },
+  "readability": {
+    "score": {
+      "notAvailable": "N/A",
+      "tooShort": "Too Short",
+      "hard": "Hard",
+      "medium": "Medium",
+      "easy": "Easy"
+    },
+    "feedback": {
+      "notAvailable": "Start typing to see analysis.",
+      "tooShort": "Not enough text to analyze.",
+      "hard": "Sentences are too long. Aim for brevity.",
+      "medium": "Good, but could be slightly simpler.",
+      "easy": "Great! Your message is clear and concise."
+    }
+  },
+  "actionBar": {
+    "uploadFilesButton": "Upload Files",
+    "recipientsCount_one": "{{count}} Recipient",
+    "recipientsCount_other": "{{count}} Recipients",
+    "recipientsNoneSelected": "None selected",
+    "saveDraftButton": "Save Draft",
+    "reviewSendButton": "Review & Send"
+  },
+  "uploadModal": {
+    "title": "Upload Contact List",
+    "description": "Select your audience source",
+    "options": {
+      "csvExcel": {
+        "title": "Upload CSV/Excel",
+        "description": "Import contacts from spreadsheet"
+      },
+      "companyContacts": {
+        "title": "Company Contacts",
+        "description": "Select from your organization's CRM"
+      },
+      "emailSubscribers": {
+        "title": "Email Subscribers",
+        "description": "Your newsletter subscribers"
+      },
+      "linkedinConnections": {
+        "title": "LinkedIn Connections",
+        "description": "Your 1st-degree connections"
+      },
+      "gdprList": {
+        "title": "GDPR Compliant List",
+        "description": "Pre-verified contacts"
+      },
+      "newSegment": {
+        "title": "Create New Segment",
+        "description": "Build custom audience"
+      }
+    },
+    "importButton": "Import Contacts"
+  },
+  "legacy": { // Preserving other keys under a 'legacy' or 'other' key for now
+    "email": { // These were originally under top-level 'email'
+        "personalization": "Personalization",
+        "readability": "Readability", // This was a string, now an object at top level
+        "tags": "Tags"
+    },
+    "linkedin": { // Originally under top-level 'linkedin'
+        "responseRate": "Response Rate"
+    },
+    "sms": { // Originally under top-level 'sms'
+        "characters": "Characters", // Moved to smsInfo
+        "segments": "SMS Segment", // Moved to smsInfo
+        "segments_plural": "SMS Segments" // Moved to smsInfo
+    },
+    "templates": { // This structure was mostly fine, but modalTitle/description are now more specific per tab
+      "title": "Templates",
+      "useTemplate": "Use Template",
+      "modalTitle": "Choose a Template", // Generic, specific ones are now in each tab
+      "categories": {
+        "welcome": "Welcome",
+        "promotion": "Promotion",
+        "event": "Event",
+        "followUp": "Follow-up",
+        "networking": "Networking",
+        "engagement": "Engagement",
+        "recruitment": "Recruitment",
+        "notification": "Notification"
+      }
+    },
+    "recipients": {
+      "title": "Recipients",
+      "selectRecipients": "Select Recipients",
+      "totalSelected": "{{count}} recipients selected", // Replaced by actionBar.recipientsCount
+      "noRecipients": "No recipients selected. Please add recipients to send messages.",
+      "addRecipients": "Add Recipients" // Replaced by actionBar.uploadFilesButton + modal
+    },
+    "delivery": { // Replaced by emailTab.deliveryStrategy
+      "title": "Delivery",
+      "options": {
+        "optimal": "Optimal Time",
+        "scheduled": "Scheduled",
+        "immediate": "Immediate"
+      },
+      "schedule": "Schedule",
+      "schedulePlaceholder": "Select date and time"
+    },
+    "actions": { // Partially replaced by actionBar
+      "send": "Send Messages", // Replaced by actionBar.reviewSendButton
+      "schedule": "Schedule Messages", // Replaced by actionBar.reviewSendButton (implicitly)
+      "cancel": "Cancel", // This should be in common.json
+      "sending": "Sending...",
+      "scheduled": "Messages Scheduled"
+    },
+    "abTesting": { // Replaced by emailTab.abTestButton etc.
+      "title": "A/B Testing",
+      "description": "Test different versions of your message to optimize performance"
+    },
+    "pageTitle": "Bulk Sender", // Was top-level 'title'
+    "pageDescription": "Send communications in bulk to multiple recipients.", // Was top-level 'description'
+    "compose": { // Mostly replaced by per-tab composer fields
+      "title": "Compose Message",
+      "subject": "Subject",
+      "subjectPlaceholder": "Enter message subject",
+      "message": "Message",
+      "messagePlaceholder": "Type your message here...",
+      "attachments": "Attachments",
+      "addAttachment": "Add Attachment"
+    },
+    "schedule": { // Replaced by emailTab.deliveryStrategy
+      "title": "Schedule",
+      "sendNow": "Send Now",
+      "scheduleForLater": "Schedule for Later",
+      "dateTime": "Date & Time",
+      "timezone": "Timezone"
+    },
+    "preview": { // Replaced by per-tab previews
+      "title": "Preview",
+      "previewRecipient": "Preview Recipient",
+      "previewMessage": "Preview your message as it will appear to recipients.",
+      "noPreview": "Compose a message to see a preview."
+    },
+    "validation": {
+      "subjectRequired": "Subject is required",
+      "messageRequired": "Message is required",
+      "recipientsRequired": "At least one recipient is required",
+      "scheduleRequired": "Please select a valid date and time for scheduling"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "header": {
+    "title": "Utilisateurs",
+    "subtitle": "Gérez les membres de votre équipe et leurs rôles.",
+    "inviteUserButton": "Inviter un Utilisateur"
+  },
+  "overview": {
+    "stats": {
+      "totalUsers": {
+        "title": "Utilisateurs Totals",
+        "description": "Membres actifs"
+      },
+      "pendingInvites": {
+        "title": "Invitations en Attente",
+        "description": "En attente de réponse"
+      },
+      "newUsers": {
+        "title": "Nouveaux Utilisateurs",
+        "description": "Ce mois-ci"
+      }
+    },
+    "mainContent": {
+      "title": "Aperçu des Utilisateurs",
+      "description": "Gérez les membres de votre équipe et leurs rôles."
+    }
+  },
+  "usersTab": {
+    "title": "Utilisateurs",
+    "description": "Voir et gérer tous les utilisateurs",
+    "status": {
+      "active": "Actif",
+      "inactive": "Inactif"
+    }
+  },
+  "invitesTab": {
+    "title": "Invitations en Attente",
+    "description": "Gérer les invitations des utilisateurs"
+  },
+  "searchInputPlaceholder": "Rechercher par nom ou e-mail...",
+  "list": {
+    "title": "Tous les utilisateurs",
+    "description": "Affichage de {{count}} utilisateurs.",
+    "searchPlaceholder": "Rechercher par nom ou e-mail..."
+  },
+  "table": {
+    "name": "Nom",
+    "email": "E-mail", // Added from EN version for completeness
+    "role": "Rôle",
+    "status": "Statut",
+    "lastLogin": "Dernière Connexion", // Added from EN version
+    "created": "Créé le", // Added from EN version
+    "actions": "Actions",
+    "manage": "Gérer" // This was present, might be a specific action context
+  },
+  "roles": { // Added from EN version
+    "admin": "Administrateur",
+    "manager": "Gestionnaire",
+    "user": "Utilisateur",
+    "viewer": "Lecteur"
+  },
+  "status": { // Added from EN version, merging with usersTab.status
+    "active": "Actif",
+    "inactive": "Inactif",
+    "suspended": "Suspendu",
+    "pending": "En attente"
+  }
+  // form, permissions, messages sections would also be added here if translating the full English file content
+}

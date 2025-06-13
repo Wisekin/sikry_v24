@@ -1,0 +1,225 @@
+{
+  "mainHeader": {
+    "title": "Centre de Messagerie",
+    "subtitle": "Concevez, analysez et envoyez vos campagnes d'un seul endroit.",
+    "newCampaignButton": "Nouvelle Campagne"
+  },
+  "channelTabs": {
+    "email": "E-mail",
+    "linkedin": "LinkedIn",
+    "sms": "SMS"
+  },
+  "emailTab": {
+    "composerTitle": "Compositeur d'E-mail",
+    "chooseTemplateButton": "Choisir parmi les Modèles",
+    "templateModal": {
+      "title": "Bibliothèque de Modèles Intelligents",
+      "description": "Sélectionnez un modèle performant pour démarrer votre campagne.",
+      "searchPlaceholder": "Rechercher des modèles...",
+      "filterCategoryButton": "Catégorie",
+      "avgOpenRateLabel": "Taux d'Ouv. Moyen",
+      "avgClickRateLabel": "Taux de Clic Moyen"
+    },
+    "subjectLabel": "Ligne d'Objet",
+    "abTestButton": "Test A/B de l'Objet",
+    "subjectVariationBPlaceholder": "Variation B : ex., Un nouveau livre blanc pour {company}",
+    "bodyLabel": "Corps du Message",
+    "toolbar": {
+      "bold": "Gras",
+      "italic": "Italique",
+      "tags": "Insérer un Tag de Personnalisation"
+    },
+    "bodyPlaceholder": "Composez votre message ici...",
+    "deliveryStrategy": {
+      "title": "Stratégie de Livraison",
+      "description": "Optimisez votre envoi pour une délivrabilité maximale.",
+      "timingLabel": "Moment de la Livraison",
+      "options": {
+        "sendImmediately": "Envoyer Immédiatement",
+        "scheduleLater": "Planifier pour Plus Tard",
+        "optimalTime": "Heure Optimale par Destinataire"
+      },
+      "scheduleDateTimeLabel": "Sélectionner Date et Heure",
+      "trackOpensLabel": "Suivre les ouvertures de message",
+      "trackClicksLabel": "Suivre les clics sur les liens",
+      "includeUnsubscribeLabel": "Inclure le lien de désabonnement"
+    },
+    "preview": {
+      "title": "Aperçu en Direct",
+      "toLabel": "À :",
+      "fromLabel": "De :",
+      "defaultSubject": "[Votre Objet Ici]",
+      "defaultBody": "..."
+    }
+  },
+  "linkedinTab": {
+    "composerTitle": "Message LinkedIn",
+    "templateModal": {
+      "title": "Bibliothèque de Modèles LinkedIn",
+      "description": "Sélectionnez un modèle performant pour la prospection LinkedIn."
+    },
+    "composerDescription": "Rédigez votre message pour LinkedIn. Les messages de demande de connexion ne sont pas pris en charge par l'API de LinkedIn pour l'automatisation, concentrez-vous sur un excellent premier message après la connexion.",
+    "messageLabel": "Message",
+    "messagePlaceholder": "ex., Merci pour la connexion, {firstName} ! J'aimerais discuter de...",
+    "characterCount": "{{length}} / 2000 caractères",
+    "availableTagsLabel": "Tags disponibles :",
+    "preview": {
+      "title": "Aperçu en Direct",
+      "yourNamePlaceholder": "Votre Nom",
+      "yourTitlePlaceholder": "Votre Titre chez SIKRY Intelligence"
+    }
+  },
+  "smsTab": {
+    "composerTitle": "Message SMS",
+    "templateModal": {
+      "title": "Bibliothèque de Modèles SMS",
+      "description": "Sélectionnez un modèle performant pour les campagnes SMS."
+    },
+    "composerDescription": "Soyez concis. Les tarifs et réglementations SMS standard s'appliquent.",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Salut {firstName}, petite mise à jour de SIKRY...",
+    "smsInfo": {
+      "charactersLabel": "Caractères :",
+      "segments_one": "{{count}} segment",
+      "segments_other": "{{count}} segments"
+    },
+    "tip": "Astuce : Incluez des informations de désabonnement comme 'Répondez STOP pour arrêter'. Utilisez un raccourcisseur d'URL pour les liens afin d'économiser des caractères.",
+    "preview": {
+      "title": "Aperçu SMS",
+      "chatHeader": {
+        "title": "Messages SIKSO",
+        "replyTime": "Répond généralement en quelques minutes"
+      },
+      "systemMessageToday": "Aujourd'hui",
+      "incomingMessagePlaceholder": "👋 Salut ! Besoin d'une petite mise à jour ?",
+      "outgoingMessagePlaceholder": "Salut {firstName}, je viens prendre des nouvelles de vos mises à jour SIKRY...",
+      "optOutInstruction": "Répondez STOP pour vous désabonner",
+      "disabledInputPlaceholder": "Écrivez un message..."
+    }
+  },
+  "colorPicker": {
+    "themeLabel": "Thème :",
+    "themeOptions": {
+      "light": "Clair",
+      "blue": "Bleu",
+      "dark": "Sombre",
+      "purple": "Violet",
+      "green": "Vert",
+      "warm": "Chaud",
+      "brand": "Marque"
+    }
+  },
+  "readability": {
+    "score": {
+      "notAvailable": "N/D",
+      "tooShort": "Trop Court",
+      "hard": "Difficile",
+      "medium": "Moyen",
+      "easy": "Facile"
+    },
+    "feedback": {
+      "notAvailable": "Commencez à écrire pour voir l'analyse.",
+      "tooShort": "Pas assez de texte pour analyser.",
+      "hard": "Les phrases sont trop longues. Visez la brièveté.",
+      "medium": "Bien, mais pourrait être légèrement plus simple.",
+      "easy": "Super ! Votre message est clair et concis."
+    }
+  },
+  "actionBar": {
+    "uploadFilesButton": "Télécharger des Fichiers",
+    "recipientsCount_one": "{{count}} Destinataire",
+    "recipientsCount_other": "{{count}} Destinataires",
+    "recipientsNoneSelected": "Aucun sélectionné",
+    "saveDraftButton": "Enregistrer le Brouillon",
+    "reviewSendButton": "Vérifier et Envoyer"
+  },
+  "uploadModal": {
+    "title": "Télécharger la Liste de Contacts",
+    "description": "Sélectionnez la source de votre audience",
+    "options": {
+      "csvExcel": {
+        "title": "Télécharger CSV/Excel",
+        "description": "Importer les contacts d'une feuille de calcul"
+      },
+      "companyContacts": {
+        "title": "Contacts de l'Entreprise",
+        "description": "Sélectionner depuis le CRM de votre organisation"
+      },
+      "emailSubscribers": {
+        "title": "Abonnés E-mail",
+        "description": "Vos abonnés à la newsletter"
+      },
+      "linkedinConnections": {
+        "title": "Relations LinkedIn",
+        "description": "Vos relations de 1er degré"
+      },
+      "gdprList": {
+        "title": "Liste Conforme RGPD",
+        "description": "Contacts pré-vérifiés"
+      },
+      "newSegment": {
+        "title": "Créer un Nouveau Segment",
+        "description": "Construire une audience personnalisée"
+      }
+    },
+    "importButton": "Importer les Contacts"
+  },
+  "legacy": {
+    "email": {
+        "personalization": "Personnalisation",
+        "readability": "Lisibilité",
+        "tags": "Tags"
+    },
+    "linkedin": {
+        "responseRate": "Taux de réponse"
+    },
+    "sms": {
+        "characters": "Caractères",
+        "segments": "Segment SMS",
+        "segments_plural": "Segments SMS"
+    },
+    "templates": {
+      "title": "Modèles",
+      "useTemplate": "Utiliser le modèle",
+      "modalTitle": "Choisir un modèle",
+      "categories": {
+        "welcome": "Bienvenue",
+        "promotion": "Promotion",
+        "event": "Événement",
+        "followUp": "Suivi",
+        "networking": "Réseautage",
+        "engagement": "Engagement",
+        "recruitment": "Recrutement",
+        "notification": "Notification"
+      }
+    },
+    "recipients": {
+      "title": "Destinataires",
+      "count": "{{count}} Destinataires",
+      "upload": "Télécharger la liste",
+      "uploadButton": "Télécharger CSV",
+      "uploadModalTitle": "Télécharger les destinataires",
+      "uploadModalDescription": "Téléchargez un fichier CSV contenant votre liste de destinataires."
+    },
+    "delivery": {
+      "title": "Livraison",
+      "options": {
+        "optimal": "Heure optimale",
+        "scheduled": "Planifié",
+        "immediate": "Immédiat"
+      },
+      "schedule": "Planifier",
+      "schedulePlaceholder": "Sélectionnez la date et l'heure"
+    },
+    "actions": {
+      "send": "Envoyer",
+      "save": "Enregistrer comme brouillon",
+      "cancel": "Annuler",
+      "close": "Fermer"
+    },
+    "abTesting": {
+      "title": "Test A/B",
+      "description": "Testez différentes versions de votre message pour optimiser les performances"
+    }
+  }
+}

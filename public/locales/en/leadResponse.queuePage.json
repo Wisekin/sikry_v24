@@ -1,0 +1,20 @@
+{
+  "title": "title",
+  "subtitle": "subtitle",
+  "common.refresh": "common.refresh",
+  "tableTitle": "tableTitle",
+  "tableDescription": "tableDescription",
+  "tableHeaders.leadId": "tableHeaders.leadId",
+  "tableHeaders.ruleTriggered": "tableHeaders.ruleTriggered",
+  "tableHeaders.status": "tableHeaders.status",
+  "tableHeaders.queuedAt": "tableHeaders.queuedAt",
+  "tableHeaders.lastAttempt": "tableHeaders.lastAttempt",
+  "tableHeaders.errorMessage": "tableHeaders.errorMessage",
+  "common.actions": "common.actions",
+  "actions.retry": "actions.retry",
+  "actions.cancel": "actions.cancel",
+  "status.completed": "Completed",
+  "status.processing": "Processing",
+  "status.failed": "Failed",
+  "status.retrying": "Retrying"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "title",
+  "subtitle": "subtitle",
+  "summary.totalProcessed": "summary.totalProcessed",
+  "summary.avgResponseTime": "summary.avgResponseTime",
+  "summary.successRate": "summary.successRate",
+  "summary.failureRate": "summary.failureRate",
+  "charts.leadsProcessedLabel": "charts.leadsProcessedLabel",
+  "charts.responseTimeTitle": "charts.responseTimeTitle",
+  "common.minutesAbbr": "common.minutesAbbr",
+  "charts.avgResponseTimeLabel": "charts.avgResponseTimeLabel",
+  "table.title": "table.title",
+  "table.description": "table.description",
+  "table.headers.ruleName": "table.headers.ruleName",
+  "table.headers.processed": "table.headers.processed",
+  "table.headers.successRate": "table.headers.successRate",
+  "table.headers.avgTime": "table.headers.avgTime"
+}

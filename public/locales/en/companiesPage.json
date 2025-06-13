@@ -1,0 +1,96 @@
+{
+  "title": "Companies",
+  "listTitle": "Company List",
+  "importButton": "Import",
+  "exportButton": "Export",
+  "addNewButton": "Add New Company",
+  "filters": {
+    "title": "Filters",
+    "searchPlaceholder": "Search by name or domain...",
+    "selectIndustryPlaceholder": "Select Industry",
+    "industries": {
+      "all": "All Industries",
+      "technology": "Technology",
+      "marketing": "Marketing",
+      "finance": "Finance"
+    },
+    "employeesSuffix": "employees"
+  },
+  "tableHeaders": {
+    "name": "Name",
+    "domain": "Domain",
+    "industry": "Industry",
+    "location": "Location",
+    "size": "Size",
+    "confidence": "Confidence",
+    "status": "Status"
+  },
+  "noResults": {
+    "title": "No Companies Found",
+    "description": "Try adjusting your search or filter criteria."
+  },
+  "confidencePercentage": "{{value}}%",
+  "companySizeValue": "{{count}} employees",
+  "detailsView": {
+    "loadingText": "Loading company details...",
+    "notFound": {
+      "title": "Company Not Found",
+      "description": "The company you are looking for either doesn't exist or could not be loaded."
+    },
+    "goBackToListButton": "Back to Companies List"
+  },
+  "tabs": {
+    "overview": {
+      "title": "Overview", // Assuming the tab itself still needs a simple title
+      "extractedData": {
+        "title": "Extracted Data",
+        "description": "Automatically detected information with confidence scores.",
+        "emailAddressesTitle": "Email Addresses",
+        "phoneNumbersTitle": "Phone Numbers",
+        "technologiesTitle": "Technologies"
+      },
+      "dataQualityMetrics": {
+        "title": "Data Quality Metrics",
+        "description": "Historical data extraction performance.",
+        "overallConfidenceLabel": "Overall Confidence",
+        "dataCompletenessLabel": "Data Completeness",
+        "sourceReliabilityLabel": "Source Reliability",
+        "scrapingHistoryTitle": "Scraping History",
+        "fieldsFoundText_one": "{{count}} field",
+        "fieldsFoundText_other": "{{count}} fields",
+        "percentageValue": "{{value}}%"
+      }
+    },
+    "engagement": "Engagement",
+    "insights": {
+      "tabTitle": "Insights", // For the tab button itself
+      "title": "AI-Generated Insights",
+      "description": "Intelligent analysis of company data and market position.",
+      "comingSoon": {
+        "title": "AI Insights Coming Soon",
+        "description": "Advanced market intelligence and competitive analysis will be available in the next update."
+      }
+    },
+    "configuration": {
+      "tabTitle": "Configuration", // For the tab button itself
+      "title": "Scraping Configuration",
+      "description": "Customize data extraction settings and field detection.",
+      "autoDetection": {
+        "title": "Auto-Detection Settings",
+        "emailLabel": "Email Detection",
+        "phoneLabel": "Phone Detection",
+        "techStackLabel": "Technology Stack Detection",
+        "socialMediaLabel": "Social Media Detection"
+      },
+      "confidenceThresholds": {
+        "title": "Confidence Thresholds",
+        "minScoreLabel": "Minimum Confidence Score"
+      },
+      "buttons": {
+        "save": "Save Configuration",
+        "resetToDefaults": "Reset to Defaults"
+      }
+      // percentageValue will be taken from common.json: common.percentageFormat
+    }
+  }
+}
